@@ -1,0 +1,9 @@
+FUNCTION		WORST CASE RUNTIME
+createDataSet		O(1)
+destroyDataSet		O(1)
+searchAge		O(logn)
+insert			O(n)
+deletion		O(n)
+maxAgeGap		O(1)
+
+For application 1, I chose a sorted array since we were doing frequent searches but infrequent insertions and deletions. This works because the worst-case runtime for our search(what we are doing frequently) is O(logn), I didn't use a hash implementation because maxAgeGap would become O(m), which would be done frequently in the guidelines for application 1. No linked lists, because searching in a linked list would be inefficient. I would've chosen a linked list if there were frequent insertions and deletions
