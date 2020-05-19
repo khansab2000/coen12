@@ -1,0 +1,8 @@
+FUNCTION		WORST CASE RUNTIME
+createDataSet		O(1)
+destroySet		O(1)
+searchID		O(n)
+insert			O(n)
+deletion		O(n)
+
+For App 2, I chose a hash table implementation, because we are searching frequently, and the expected runtime for a hash search is O(1), much better than the search of any other implementation.
